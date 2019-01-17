@@ -9,6 +9,8 @@
 
 - Tested and compiled using XeLaTeX.
 
+- Works with bold and italics, however as far as I am aware, this is a limitation of the Sans Forgetica font.
+
 
 # Preview of document:
 
