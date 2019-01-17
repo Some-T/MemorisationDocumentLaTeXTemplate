@@ -14,11 +14,11 @@
 
 
 ## Page 1:
-![Page1](https://i.gyazo.com/64d83a6eaa4aa71d617562592b29b003.png)
+![Page1](page1.png)
 
 
 ## Page 2:
-![Page2](https://i.gyazo.com/3b28609b5d538101d75cce5e64ccf968.png)
+![Page2](page2.png)
 
 ## Page 3:
-![Page3](https://i.gyazo.com/7cfce9149cd46cd4fe6953788f90eb13.png)
+![Page3](page3.png)
