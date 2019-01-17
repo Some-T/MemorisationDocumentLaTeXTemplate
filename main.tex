@@ -15,6 +15,19 @@
 \setmainfont{[SansForgetica-Regular.otf]} %To load the font named Sans Forgetica
 
 
+\setmainfont{SansForgetica}[
+  Path=./,
+  Extension=.otf,
+  UprightFont=*-Regular,
+  BoldFont=*-Regular,
+  BoldFeatures={FakeBold=3},
+  ItalicFont=*-Regular,
+  ItalicFeatures={FakeSlant=0.3},
+  BoldItalicFont=*-Regular,
+  BoldItalicFeatures={FakeBold=3,FakeSlant=0.3},
+]
+
+
 
 
 \begin{document}
@@ -60,13 +73,27 @@
 \newpage
 
 
-% Putting in tabular data: https://www.overleaf.com/learn/latex/Tables
-
-
 \section*{Planet Earth Image Title:}
 \begin{flushleft}
 \includegraphics{earth.png} %I can replace this and put any image
 \end{flushleft}
+
+
+%For a new page:
+\newpage
+
+
+\section*{Title for Italic and Bold examples:}
+\begin{flushleft}
+\begin{itemize}
+\item\textit{Italic text example}\\
+\item\textbf{Bold text example}\\
+\item\textit{\textbf{Bold and Italic text example}}\\
+\end{itemize}
+\end{flushleft}
+
+
+% Putting in tabular data: https://www.overleaf.com/learn/latex/Tables
 
 
 \end{document}
